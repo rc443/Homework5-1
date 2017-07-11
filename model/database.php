@@ -1,6 +1,6 @@
 <?php
     $dsn = 'mysql:host=sql2.njit.edu;dbname=rc443';
-    $username = 'rc443;
+    $username = 'rc443';
     $password = 'Gpsc539F';
 
     try {
