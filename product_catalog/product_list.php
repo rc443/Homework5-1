@@ -17,8 +17,7 @@
     </aside>
     <section>
         <h1><?php echo $category_name; ?></h1>
-        <nav>
-        <ul>
+        <ul class="nav">
             <!-- display links for products in selected category -->
             <?php foreach ($products as $product) : ?>
             <li>
@@ -29,7 +28,6 @@
             </li>
             <?php endforeach; ?>
         </ul>
-        </nav>
     </section>
 </main>
 <?php include '../view/footer.php'; ?>
